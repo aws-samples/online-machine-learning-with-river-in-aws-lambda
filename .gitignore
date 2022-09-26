@@ -1,0 +1,9 @@
+*.drawio
+*.csv
+*.pdf
+*.jpg
+*.jpeg
+*.ipynb_checkpoints/
+*__pycache__/
+*.DS_Store
+*.pytest_cache/
