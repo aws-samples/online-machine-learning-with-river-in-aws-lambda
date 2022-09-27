@@ -65,7 +65,7 @@ def lambda_handler(event, context):
         
         # If drift is detected change the output
         logging.info("Detect changes...")
-        if model.change_detected:
+        if model.drift_detected:
             output_body["Drift"] = "Yes"
     except botocore.exceptions.ClientError as e:
         if e.response['Error']['Code'] == "404":
