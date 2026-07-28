@@ -19,7 +19,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where="river_app"),
 
     install_requires=[
-        "aws-cdk-lib==2.38.1",
+        "aws-cdk-lib==2.253.0",
         "cdk-nag==2.16.0",
         "constructs>=10.0.0,<11.0.0",
         "pytest==6.2.5",
